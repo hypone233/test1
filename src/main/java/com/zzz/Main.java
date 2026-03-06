@@ -1,8 +1,5 @@
 package com.zzz;
 
-import java.util.LinkedList;
-import java.util.ListIterator;
-
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -40,7 +37,7 @@ public class Main {
         for (int i = 0; i < 100; i++) {
             list.add(i);
         }*/
-        LinkedList<Integer> list = new LinkedList<>();
+        /*LinkedList<Integer> list = new LinkedList<>();
         list.add(1);
         list.add(2);
         list.add(3);
@@ -58,7 +55,28 @@ public class Main {
         while(iterator.hasPrevious()){
 
             System.out.println(iterator.previous()+"");
-        }
+        }*/
+       /* Stack<Integer> s = new Stack<>();
+        s.push(1);
+        s.push(2);
+        s.push(3);
+        s.push(4);
+        System.out.println(s.size());
+        System.out.println(s.peek());
+        System.out.println(s.pop());
+        System.out.println(s.peek());
+        if(!s.empty()) System.out.println("haiyou");*/
+        /*Queue<Integer> q = new LinkedList<>();
+        q.offer(1);
+        q.offer(2);
+        q.offer(3);
+        q.offer(4);
+        q.offer(5);
+        System.out.println(q.size());
+        System.out.println(q.peek());
+        q.poll();
+        System.out.println(q.poll());
+        if(!q.isEmpty()) System.out.println("meikong");*/
 
     }
 }
