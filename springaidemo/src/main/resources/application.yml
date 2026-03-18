@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: springaidemo
+  ai:
+    openai:
+      api-key: sk-143f422f37f54908b2376129b3c81152
+      base-url: https://api.deepseek.com
+      chat:
+        options:
+          model: deepseek-chat
+          temperature: 0.7
