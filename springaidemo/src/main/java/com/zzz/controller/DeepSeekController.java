@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/ds")
 @RestController
 public class DeepSeekController {
-
+    //接入
     @Autowired
     private OpenAiChatModel openAiChatModel;
 
